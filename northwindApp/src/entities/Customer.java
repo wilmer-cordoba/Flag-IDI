@@ -30,8 +30,6 @@ public class Customer {
 		this.fax = fax;
 	}
 
-
-
 	public String getCustomerId() {
 		return customerId;
 	}
