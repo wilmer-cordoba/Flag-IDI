@@ -6,14 +6,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ConsumeNorthwind</name>
 
-
-	<parent>
-		<groupId>org.apache.olingo</groupId>
-		<artifactId>odata-samples</artifactId>
-		<version>4.4.0-SNAPSHOT</version>
-		<relativePath>..</relativePath>
-	</parent>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -35,22 +27,26 @@
 	</build>
 
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.apache.olingo/odata-client-core -->
 		<dependency>
 			<groupId>org.apache.olingo</groupId>
 			<artifactId>odata-client-core</artifactId>
-			<version>4.4.0-SNAPSHOT</version>
+			<version>4.2.0</version>
 		</dependency>
+
 		<dependency>
 			<groupId>commons-logging</groupId>
 			<artifactId>commons-logging</artifactId>
+			<version>1.2</version>
 			<scope>runtime</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-simple</artifactId>
-			<version>${sl4j.version}</version>
-			<scope>runtime</scope><!--$NO-MVN-MAN-VER$ -->
+			<artifactId>slf4j-api</artifactId>
+			<version>1.8.0-alpha2</version>
 		</dependency>
+
 	</dependencies>
 
 
